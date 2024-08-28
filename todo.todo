@@ -1,0 +1,48 @@
+[ ] CRIAR COMPONENTS
+  [ ] TOPO 
+    [ ] ESTILIZAR
+    -> COMPOSTO: Um cabeçalho (<header>) com:
+                    Uma imagem (logo);
+                    Um botão (<button>).
+  [ ] SECAO BANNER
+    [ ] ESTILIZAR
+    -> COMPOSTO: Uma seção (<section>) com:
+                    Um container (<div>) com:
+                      Uma imagem de fundo;
+                    Um container (<div>) com:
+                      Um parágrafo (<p>);
+                      Um subtítulo (<h2>);
+                      Um texto genérico (<span>).
+  [ ] SECAO EXPERIENCIA TRABALHO
+    [ ] ESTILIZAR
+    -> COMPOSTO: Uma seção (<section>) com:
+                    Um container com:
+                      Um subtítulo (<h2>);
+                      Um parágrafo (<p>).
+                    Um container com:
+                      Três componentes Card.
+  [ ] CARD
+    [ ] ESTILIZAR
+    -> COMPOSTO: Um container (<div>) com:
+                    Um subcontainer (<div>) com:
+                      Um texto genérico (<span>);
+                      Um subtítulo (<h3>);
+                      Um texto pequeno (<small>);
+                      Um parágrafo (<p>);
+  [ ] RODAPE
+    [ ] ESTILIZAR
+    -> COMPOSTO: Um rodapé (<footer>) com:
+                    Um container (<div>);
+                      Um subcontainer (<div>) com:
+                        Uma imagem;
+                        Um parágrafo (<p>);
+                      Um subcontainer (<div>) com:
+                        Seis imagens;
+                      Um container (<div>) com:
+                        Um parágrafo;
+
+[ ] CRIAR RESPONSIVIDADE
+  [ ] LAYOUT 1920px - PADRÃO
+  [ ] LAYOUT 1024px
+  [ ] LAYOUT 768px
+  [ ] LAYOUT 425px
