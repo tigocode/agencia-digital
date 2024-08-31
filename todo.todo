@@ -1,11 +1,11 @@
 [ ] CRIAR COMPONENTS
-  [ ] TOPO 
-    [ ] ESTILIZAR
+  [x] TOPO 
+    [x] ESTILIZAR
     -> COMPOSTO: Um cabeçalho (<header>) com:
                     Uma imagem (logo);
                     Um botão (<button>).
-  [ ] SECAO BANNER
-    [ ] ESTILIZAR
+  [x] SECAO BANNER
+    [x] ESTILIZAR
     -> COMPOSTO: Uma seção (<section>) com:
                     Um container (<div>) com:
                       Uma imagem de fundo;
@@ -13,15 +13,15 @@
                       Um parágrafo (<p>);
                       Um subtítulo (<h2>);
                       Um texto genérico (<span>).
-  [ ] SECAO EXPERIENCIA TRABALHO
-    [ ] ESTILIZAR
+  [x] SECAO EXPERIENCIA TRABALHO
+    [x] ESTILIZAR
     -> COMPOSTO: Uma seção (<section>) com:
                     Um container com:
                       Um subtítulo (<h2>);
                       Um parágrafo (<p>).
                     Um container com:
                       Três componentes Card.
-  [ ] CARD
+  [x] CARD
     [ ] ESTILIZAR
     -> COMPOSTO: Um container (<div>) com:
                     Um subcontainer (<div>) com:
@@ -29,7 +29,7 @@
                       Um subtítulo (<h3>);
                       Um texto pequeno (<small>);
                       Um parágrafo (<p>);
-  [ ] RODAPE
+  [x] RODAPE
     [ ] ESTILIZAR
     -> COMPOSTO: Um rodapé (<footer>) com:
                     Um container (<div>);
@@ -40,6 +40,9 @@
                         Seis imagens;
                       Um container (<div>) com:
                         Um parágrafo;
+[ ] CRIAR CSS COM OS ESTILOS DO TEMA DARK E LIGHT
+  [ ] DARK
+  [ ] LIGHT
 
 [ ] CRIAR RESPONSIVIDADE
   [ ] LAYOUT 1920px - PADRÃO

@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  padding: 100px 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  position: relative;
+  width: 768px;
+  text-align: center;
+}
+.content h2 {
+  font-size: 45px;
+}
+.content h2::before {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background: #feb633;
+  
+  position: absolute;
+  top: 65px;
+  left: 330px;
+}
+.content p {
+  font-size: 18px;
+  color: #8a8fa3;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  max-width: 1024px;
+  width: 100%;
+}
