@@ -27,7 +27,7 @@
   background: #FFFFFF;
 }
 .dark {
-  background: #252525;
+  background: #393838;
 }
 .btn_light {
   border: 3px solid #747272;
@@ -35,5 +35,5 @@
 }
 .btn_dark {
   border: 3px solid #feb633;
-  background: #252525;
+  background: #393838;
 }
