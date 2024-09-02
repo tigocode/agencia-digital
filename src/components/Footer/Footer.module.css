@@ -56,7 +56,15 @@
 .copy span {
   color: #feb633;
 }
-
+.light {
+  background: #FFFFFF;
+}
+.dark {
+  background: #252525;
+}
+.dark p {
+  color: #CCCCCC;
+}
 @media (min-width: 425px) and (max-width: 768px) {
   .redes img {
     width: 44px;

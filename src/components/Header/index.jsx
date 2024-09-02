@@ -5,12 +5,12 @@ import Sun from '../../../public/sun.png';
 import Moon from '../../../public/moon.png';
 
 
-export default function Header() {
+export default function Header(props) {
   return (
-    <header className={styles.container}>
+    <header className={props.ehTemaEscuro ? `${styles.container} ${styles.dark}` : `${styles.container} ${styles.light}`}>
       <Image src={Logo} alt='Logotipo'/>
-      <button>
-        <Image src={Sun} alt='botao' />
+      <button onClick={props.acao_onclick} className={props.ehTemaEscuro ? styles.btn_dark : styles.btn_light}>
+        <Image src={props.ehTemaEscuro ? Sun : Moon} alt='botao' />
       </button>
     </header>
   );

@@ -40,17 +40,19 @@
                         Seis imagens;
                       Um container (<div>) com:
                         Um parágrafo;
-[ ] CRIAR RESPONSIVIDADE
-  [ ] LAYOUT 1920px - PADRÃO
-  [ ] LAYOUT 1024px
-  [ ] LAYOUT 768px
-  [ ] LAYOUT 425px
+[x] CRIAR RESPONSIVIDADE
+  [x] LAYOUT 1920px - PADRÃO
+  [x] LAYOUT 1024px
+  [x] LAYOUT 768px
+  [x] LAYOUT 425px
 
-[ ] CRIAR CSS COM OS ESTILOS DO TEMA DARK E LIGHT
-  [ ] DARK
-  [ ] LIGHT
+[x] CRIAR CSS COM OS ESTILOS DO TEMA DARK E LIGHT
+  [x] DARK
+  [x] LIGHT
 
-[ ] CRIAR FUNCIONALIDADE QUE PERMITE MUDAR O TEMA
+[x] CRIAR FUNCIONALIDADE QUE PERMITE MUDAR O TEMA
+
+[ ] CRIAR README.MD DO PROJETO
 
 [X] PALETA DE CORES
   [X] LIGHT

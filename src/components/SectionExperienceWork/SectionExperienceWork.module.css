@@ -73,7 +73,16 @@
     font-size: 16px;
   }
 }
-
+.light {
+  background: #FFFFFF;
+}
+.dark {
+  background: #252525;
+  color: #CCCCCC;
+}
+.dark p {
+  color: #CCCCCC;
+}
 @media (min-width: 375px) and (max-width: 424px) {
   .content {
     max-width: 375px;

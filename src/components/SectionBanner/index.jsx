@@ -1,6 +1,6 @@
 import styles from './SectionBanner.module.css';
 
-export default function SectionBanner() {
+export default function SectionBanner(props) {
   return (
     <section className={styles.container}>
       <div className={styles.banner_img}></div>

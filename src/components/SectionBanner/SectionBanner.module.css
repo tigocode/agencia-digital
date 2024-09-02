@@ -35,7 +35,6 @@
 .content span {
   font-weight: 800;
 }
-
 @media (max-width: 768px) {
   .banner_img {
     width: 0%;
@@ -45,7 +44,6 @@
     padding: 0px 40px;
   }
 }
-
 @media (min-width: 425px) and (max-width: 767px){
   .content h2,
   .content span {

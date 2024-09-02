@@ -9,9 +9,9 @@ import Dribble from '../../../public/dribble.png';
 import Behance from '../../../public/behance.png';
 import Google from '../../../public/google.png';
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <footer className={styles.container}>
+    <footer className={props.ehTemaEscuro ? `${styles.container} ${styles.dark}` : `${styles.container} ${styles.light}`}>
       <div className={styles.footer_content}>
         <div className={styles.text}>
           <Image src={Logo} />
