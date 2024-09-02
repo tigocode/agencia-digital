@@ -6,6 +6,7 @@
   width: 100%;
   padding: 100px 20px;
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -15,23 +16,27 @@
   width: 768px;
   text-align: center;
 }
+
 .content h2 {
   font-size: 45px;
 }
+
 .content h2::before {
   content: '';
   width: 100px;
   height: 4px;
   background: #feb633;
-  
+
   position: absolute;
   top: 65px;
   left: 330px;
 }
+
 .content p {
   font-size: 18px;
   color: #8a8fa3;
 }
+
 .box {
   display: flex;
   justify-content: center;
@@ -40,4 +45,51 @@
 
   max-width: 1024px;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 80px 20px;
+  }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .content {
+    max-width: 425px;
+    padding: 0px 30px;
+  }
+
+  .content h2 {
+    font-size: 35px;
+  }
+
+  .content h2::before {
+    top: 105px;
+    left: 160px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .content {
+    max-width: 375px;
+    padding: 0px 30px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+  }
+
+  .content h2::before {
+    top: 85px;
+    left: 136px;
+  }
+
+  .content p {
+    font-size: 15px;
+  }
 }

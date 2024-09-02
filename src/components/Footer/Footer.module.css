@@ -1,6 +1,7 @@
 .container {
   width: 100%;
 }
+
 .footer_content {
   display: flex;
   flex-direction: column;
@@ -9,6 +10,7 @@
 
   padding: 100px 0px;
 }
+
 .text {
   display: flex;
   flex-direction: column;
@@ -17,33 +19,56 @@
   max-width: 600px;
   width: 100%;
 }
+
 .text p {
   font-size: 18px;
   text-align: center;
   color: #8a8fa3;
 }
+
 .redes {
   display: flex;
   justify-content: space-evenly;
   max-width: 375px;
   width: 100%;
 }
+
 .redes img {
   width: 45px;
   height: 45px;
 }
+
 .copy {
   text-align: center;
   padding: 20px 0px;
 }
+
 .copy p,
 .copy span {
   font-size: 16px;
   font-weight: 600;
 }
+
 .copy p {
   color: #32333c;
 }
+
 .copy span {
   color: #feb633;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .redes img {
+    width: 44px;
+    height: 44px;
+  }
+  .text p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .text p {
+    font-size: 15px;
+  }
 }

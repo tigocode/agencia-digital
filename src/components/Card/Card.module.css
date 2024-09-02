@@ -35,3 +35,8 @@
   color: #32333c;
   font-weight: 500;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

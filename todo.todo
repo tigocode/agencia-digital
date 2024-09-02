@@ -22,7 +22,7 @@
                     Um container com:
                       Três componentes Card.
   [x] CARD
-    [ ] ESTILIZAR
+    [x] ESTILIZAR
     -> COMPOSTO: Um container (<div>) com:
                     Um subcontainer (<div>) com:
                       Um texto genérico (<span>);
@@ -30,7 +30,7 @@
                       Um texto pequeno (<small>);
                       Um parágrafo (<p>);
   [x] RODAPE
-    [ ] ESTILIZAR
+    [x] ESTILIZAR
     -> COMPOSTO: Um rodapé (<footer>) com:
                     Um container (<div>);
                       Um subcontainer (<div>) com:
@@ -40,15 +40,17 @@
                         Seis imagens;
                       Um container (<div>) com:
                         Um parágrafo;
-[ ] CRIAR CSS COM OS ESTILOS DO TEMA DARK E LIGHT
-  [ ] DARK
-  [ ] LIGHT
-
 [ ] CRIAR RESPONSIVIDADE
   [ ] LAYOUT 1920px - PADRÃO
   [ ] LAYOUT 1024px
   [ ] LAYOUT 768px
   [ ] LAYOUT 425px
+
+[ ] CRIAR CSS COM OS ESTILOS DO TEMA DARK E LIGHT
+  [ ] DARK
+  [ ] LIGHT
+
+[ ] CRIAR FUNCIONALIDADE QUE PERMITE MUDAR O TEMA
 
 [X] PALETA DE CORES
   [X] LIGHT

@@ -16,6 +16,7 @@
 
   border: 1px solid #747272;
   border-radius: 50%;
+  cursor: pointer;
 }
 .container button img {
   width: 25px;
