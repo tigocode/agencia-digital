@@ -2,7 +2,7 @@
 
 A proposta desse projeto é criar uma landing page em React, para colocar em prática os conceitos do conhecimento adquirido até aqui.
 
-### Acesse o Link: https://sorveteria-gelateria-tigocode.vercel.app/
+### Acesse o Link: https://agencia-digital-m.vercel.app/
 
 <div >
   <img height="280em" src="./public/modo_dark_and_light.png" />
